@@ -1,2 +1,62 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="Main.css">
+        <title>Marko Djurdjevic Home Page</title>
 
+        
+
+    </head>
+    <body>
+
+        <div class="header">
+            <h1 class="head"><a href="index.html">Marko Djurdjevic: A Life</a></h1>
+        </div>
+                  
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Testing.html">Testing</a>
+        </div>
+
+        <div class="parallax" style="background-image: url('hands.jpg')"></div>
+
+        <div class="homebody">
+                About Me<br><br>
+
+                I was born in Atlanta, Georgia to Nikola Djurdjevic and Dragana Obradovic. I only lived there for two years, so I have no memory of the place.
+
+        </div>
+
+        <div class="parallax" style="background-image: url('horizon.jpg')"></div>
+
+        <div class="footer">
+
+            <a id="twitter" target="_blank" href="https://twitter.com/MajorMarkoozy"><i class="fa fa-twitter"></i> Twitter</a>
+            <a id="youtube" target="_blank" href="https://www.youtube.com/channel/UCSR6O3xZpla6YgwWlh-ON9w/featured?disable_polymer=1"><i class="fa fa-youtube-square"></i> Youtube</a>
+
+        </div>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+        </script>
+
+     
+
+    </body>
+</html>
