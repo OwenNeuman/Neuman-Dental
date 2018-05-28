@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
+body {
+    background-color: #2B2D42
+}
+
+a#twitter:link {
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+    background-color: #1DA1F2;
+    color: white;
+    padding: 14px 25px;
+    margin: 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px
+}
+
+a#twitter:visited {
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+    background-color: #1DA1F2;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px
+}
+
+a#twitter:hover {
+    background-color: #1DA1F2;
+}
+
+a#twitter:active {
+    background-color: #1DA1F2;
+}
+
+a#youtube:link {
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 25px;
+    margin: 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px
+}
+
+a#youtube:visited {
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 25px;
+    margin: 10px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px
+}
+
+body {
+    margin: 0px;
+}
+
+/* Style the header */
+.header {
+    background-image: url("pattern.png");
+    padding: 0px 0px;
+    margin: 0px;
+    text-align: center;
+    align-content: center;
+    float: center;
+    font-family: 'Bungee Inline', cursive;
+    color: #EDF2F4;
+
+    
+    
+}
+
+.head {
+    padding: 0px;
+    margin: 0px;
+    font-size: 48px;
+    float: center;
+    line-height: 2;
+    white-space: pre;
+}
+
+@media only screen and (max-width:750px) {
+    .head {
+        font-size: 6.35vw;
+    }
+}
+
+/* Style the top navigation bar */
+#navbar {
+    overflow: hidden;
+    margin: 0px;
+    background-color: #2B2D42;
+    font-family: Roboto;
+}
+
+/* Style the navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+#navbar a:hover {
+    background-color: #EDF2F4;
+    color: #2B2D42;
+}
+
+.footer {
+    background-color: #2B2D42;
+    overflow: hidden;
+}
+
+.parallax {
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homebody {
+    height: 500px;
+    background-color:#2B2D42;
+    color: #EDF2F4;
+    text-align: center;
+    font-size:24px;
+    font-family: Roboto;
+    padding:24px;
+    
+}
+
+h1 a {
+
+    text-decoration: none;
+    color:inherit;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.sticky + .parallax {
+    padding-top: 49px;
+}
+
+.fortuneButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:24px;
+    font-family: Roboto;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.fortuneDiv {
+    text-align: center;
+    color: #EDF2F4;
+    font-size:24px;
+    font-family: Roboto;
+}
